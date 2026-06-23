@@ -13,7 +13,9 @@ st.title("EduPro Predictive Analytics Dashboard")
 st.write("Course Demand and Revenue Forecasting")
 
 # Load dataset
-master_df = pd.read_csv(r"C:\Users\prach\Python\EduPro_ML_Project\Notebook\master_df.csv")
+master_df = pd.read_csv(
+    os.path.join(BASE_DIR, "Notebook", "master_df.csv")
+)
 
 # Sidebar
 page = st.sidebar.selectbox(
