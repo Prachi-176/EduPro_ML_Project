@@ -1,8 +1,0 @@
-## what we need to download in VS Code  : 
-pandas
-numpy
-matplotlib
-scikit-learn
-streamlit
-joblib
-openpyxl # for opening excel files
