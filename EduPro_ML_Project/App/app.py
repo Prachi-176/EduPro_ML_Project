@@ -14,7 +14,7 @@ st.write("Course Demand and Revenue Forecasting")
 
 # Load dataset
 master_df = pd.read_csv(
-    os.path.join(BASE_DIR, "Notebook", "master_df.csv")
+    os.path.join(BASE_DIR, "..", "Notebook", "master_df.csv")
 )
 
 # Sidebar
