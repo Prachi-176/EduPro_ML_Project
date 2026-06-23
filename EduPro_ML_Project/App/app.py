@@ -1,5 +1,5 @@
 import joblib
-model = joblib.load(r"C:\Users\prach\Python\EduPro_ML_Project\App\simple_revenue_model.pkl")
+model = joblib.load("simple_revenue_model.pkl")
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
