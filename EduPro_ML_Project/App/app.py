@@ -1,5 +1,9 @@
+import os
 import joblib
-model = joblib.load("simple_revenue_model.pkl")
+
+BASE_DIR = os.path.dirname(__file__)
+model = joblib.load(os.path.join(BASE_DIR, "simple_revenue_model.pkl"))
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
