@@ -5,4 +5,4 @@ matplotlib
 scikit-learn
 streamlit
 joblib
-openpyxl
+openpyxl # for opening excel files
